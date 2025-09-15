@@ -1,0 +1,27 @@
+{
+  "name": "team-organizer",
+  "version": "0.0.1",
+  "description": "Ability to make balanced teams based on custom attributs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/.bin/jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lahayeg/team-organizer.git"
+  },
+  "keywords": [],
+  "author": "Guillaume LAHAYE",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/lahayeg/team-organizer/issues"
+  },
+  "homepage": "https://github.com/lahayeg/team-organizer#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
