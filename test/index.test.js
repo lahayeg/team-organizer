@@ -1,6 +1,7 @@
 // test/index.test.js
 //const organizeTeams = require('./../organizeTeams');
-import organizeTeams from '../index.js';
+import { organizeTeams } from '../index.js';
+//const  organizeTeams = require('./../');
 import averageTeamAttribute from '../utils.js';
 import { describe, expect, it } from '@jest/globals'; // Import Jest functions
 

@@ -9,7 +9,7 @@ import _ from 'lodash'; // If you're using lodash
  * @param {Array<string>} attributesToBalance - Array of attribute names to balance.
  * @returns {Array<Array<object>>} - An array of teams (arrays of member objects).
  */
-function organizeTeams(members, numTeams, attributesToBalance) {
+export function organizeTeams(members, numTeams, attributesToBalance) {
     if (!members || members.length === 0 || numTeams <= 0) {
         return []; // Handle empty input
     }
@@ -75,4 +75,6 @@ function organizeTeams(members, numTeams, attributesToBalance) {
 }
 
 
-export default organizeTeams;
+/*module.exports = {
+    organizeTeams: organizeTeams
+};*/
